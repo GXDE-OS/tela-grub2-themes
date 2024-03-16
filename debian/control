@@ -1,0 +1,19 @@
+Source: tela-grub2-themes
+Priority: optional
+Maintainer: gfdgd xi <3025613752@qq.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ make,
+Standards-Version: 4.6.2
+Homepage: https://github.com/GXDE/tela-grub2-themes
+#Vcs-Browser: https://salsa.debian.org/debian/tela-grub2-themes
+#Vcs-Git: https://salsa.debian.org/debian/tela-grub2-themes.git
+
+Package: tela-grub2-themes
+Architecture: all
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
