@@ -1,2 +1,2 @@
-#!/bin/bash
-/usr/share/tela-grub2-themes/install.sh -b -t tela | true
+#!/bin/sh
+/usr/share/tela-grub2-themes/install.sh -b -t tela ; true

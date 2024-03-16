@@ -15,5 +15,7 @@ Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ dialog,
+ grub-common
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
